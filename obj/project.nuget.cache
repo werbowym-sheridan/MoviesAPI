@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "qzKO7/Q70SDI4kd+1Uscd/JTyeYUtvM5J0ZrE5UUbuZhgf9pHZ7yilkq4SBmFVhNUSWrtGeL3+7Ef92TBGZtgA==",
+  "success": true,
+  "projectFilePath": "/Users/werbowym/Documents/Sheridan/Year Three/Term Two/distributed asif/MoviesAPI/MoviesAPI.csproj",
+  "expectedPackageFiles": [
+    "/Users/werbowym/.nuget/packages/microsoft.aspnetcore.openapi/7.0.1/microsoft.aspnetcore.openapi.7.0.1.nupkg.sha512",
+    "/Users/werbowym/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/werbowym/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/werbowym/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/Users/werbowym/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/Users/werbowym/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/Users/werbowym/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
