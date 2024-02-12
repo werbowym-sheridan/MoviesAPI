@@ -27,6 +27,15 @@ namespace MoviesAPI.Controllers
             return movies;
         }
 
-        // Add other necessary API methods here (POST, PUT, DELETE, etc.)
+        [HttpPost]
+        public IActionResult Post([FromBody] Movie newMovie)
+        {
+            if (newMovie == null || string.IsNullOrEmpty(newMovie.Title) || string.IsNullOrEmpty(newMovie.ReleaseYear))
+            {
+                return BadRequest("Movie information is incomplete.");
+            }
+            movies.Add(newMovie);
+            return CreatedAtAction(nameof(Get), new { id = newMovie.Id }, newMovie);
+        }
     }
 }
